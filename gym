@@ -1,0 +1,95 @@
+ html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Templo Oyama Gym - Castro, Chiloé</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <!-- Encabezado -->
+  <header class="bg-red-700 text-white py-6 shadow-md">
+    <div class="container mx-auto flex flex-col items-center">
+      <img src="logo1.png" alt="Logo Oyama Gym" class="h-24 mb-4">
+      <h1 class="text-3xl font-bold">Templo Oyama Gym</h1>
+      <p class="text-lg">Castro, Chiloé</p>
+    </div>
+  </header> <!-- Inicio --> <section class="py-12 text-center bg-white">
+    <h2 class="text-2xl font-bold mb-4">Centro de Artes Marciales</h2>
+    <p class="max-w-2xl mx-auto text-lg">
+      Un espacio dedicado al desarrollo físico, mental y espiritual a través de las artes marciales tradicionales y modernas.
+    </p>
+    <div class="flex justify-center mt-6">
+      <img src="logo2.png" alt="Segundo Logo Oyama Gym" class="h-20">
+    </div>
+  </section> <!-- Academias --> <section class="py-12 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Nuestras Academias</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-xl shadow">Karate Kyokushin</div>
+        <div class="p-6 bg-white rounded-xl shadow">Karate Shotokan</div>
+        <div class="p-6 bg-white rounded-xl shadow">Judo Kodokan</div>
+        <div class="p-6 bg-white rounded-xl shadow">Brazilian Jiu Jitsu</div>
+        <div class="p-6 bg-white rounded-xl shadow">Kung Fu Shi Wu Tou</div>
+        <div class="p-6 bg-white rounded-xl shadow">Kung Fu Tai Chi</div>
+      </div>
+    </div>
+  </section> <!-- Filosofía --> <section class="py-12 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Nuestra Filosofía</h2>
+      <p class="max-w-2xl mx-auto text-lg">
+        En el Templo Oyama Gym seguimos los principios del <strong>Budo japonés</strong>, cultivando disciplina, respeto y autocontrol. 
+        Creemos en el <strong>camino de la autoeficacia marcial</strong>, donde cada estudiante encuentra su mejor versión a través del entrenamiento.
+      </p>
+    </div>
+  </section> <!-- Público --> <section class="py-12 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Para quiénes es</h2>
+      <p class="max-w-xl mx-auto text-lg">
+        Contamos con programas especiales para <strong>niños</strong>, <strong>adolescentes</strong> y <strong>adultos</strong>, adaptados a cada etapa del aprendizaje marcial.
+      </p>
+    </div>
+  </section> <!-- Galería --> <section class="py-12 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">Galería de Entrenamientos</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <img src="foto1.jpg" alt="Grupo BJJ" class="rounded-xl shadow">
+        <img src="foto2.jpg" alt="Competencias Kickboxing" class="rounded-xl shadow">
+        <img src="foto3.jpg" alt="Clase de mujeres" class="rounded-xl shadow">
+      </div>
+    </div>
+  </section> <!-- Contacto --> <footer class="bg-red-700 text-white py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-xl font-bold mb-2">Contáctanos</h2>
+      <p>Email: contacto@templooyamagym.cl</p>
+      <p>Dirección: Piloto Samuel Ulloa 920, Castro, Chiloé</p><!-- Mapa Google Maps -->
+  <div class="mt-6 flex justify-center">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.364733201448!2d-73.769!3d-42.480!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDI4JzQ4LjAiUyA3M8KwNDYnMDguMCJX!5e0!3m2!1ses!2scl!4v1692546000000!5m2!1ses!2scl" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <!-- Botón WhatsApp -->
+  <div class="mt-6">
+    <a href="https://wa.me/56945874702" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition">
+      📲 Escríbenos por WhatsApp
+    </a>
+  </div>
+
+  <!-- Formulario de contacto -->
+  <div class="mt-10 max-w-lg mx-auto bg-white text-gray-900 p-6 rounded-xl shadow">
+    <h3 class="text-lg font-bold mb-4">Envíanos un mensaje</h3>
+    <form action="mailto:contacto@templooyamagym.cl" method="POST" enctype="text/plain" class="space-y-4">
+      <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full border border-gray-300 rounded-lg p-3">
+      <input type="email" name="correo" placeholder="Tu correo" required class="w-full border border-gray-300 rounded-lg p-3">
+      <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required class="w-full border border-gray-300 rounded-lg p-3"></textarea>
+      <button type="submit" class="w-full bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-lg shadow transition">Enviar</button>
+    </form>
+  </div>
+
+  <p class="mt-6">© 2025 Templo Oyama Gym</p>
+</div>
+
+  </footer>
+</body>
+</html>
